@@ -1,0 +1,117 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  font-family: system-ui;
+  font-weight: 0;
+  font-style: normal;
+}
+.navbar {
+  background-color: #34495e;
+  padding: 10px;
+  color: white;
+}
+.container {
+  padding: 10px;
+}
+.book-container {
+  padding: 15px;
+  width: 250px;
+  background-color: #22313f;
+  border-radius: 10px;
+  color: #e4f1fe;
+  margin: 30px;
+  display: inline-block;
+  vertical-align: top;
+}
+.book-container h2 {
+  color: #8dc6ff;
+}
+.book-container button {
+  background-color: #8dc6ff;
+  color: black;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: none;
+  margin-top: 10px;
+}
+.add-btn {
+  background-color: #8dc6ff;
+  color: black;
+  border-radius: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border: none;
+  font-size: 40px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+.overlay {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  top: 0%;
+  left: 0%;
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+.popupbox {
+  background-color: #8dc6ff;
+  color: black;
+  position: absolute;
+  width: 40%;
+  padding: 40px;
+  border-radius: 10px;
+  top: 20%;
+  left: 30%;
+  z-index: 2;
+  display: none;
+}
+.popupbox input {
+  background: transparent;
+  border: none;
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  border-bottom: solid black 2px;
+}
+.popupbox textarea {
+  background: transparent;
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  border: solid black 2px;
+}
+.popupbox input::placeholder {
+  color: black;
+}
+.popupbox textarea::placeholder {
+  color: black;
+}
+.popupbox button {
+  background-color: #22313f;
+  color: #8dc6ff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  margin: 5px;
+}
+.popupbox input:focus {
+  outline: none;
+}
+.popupbox textarea:focus {
+  outline: none;
+}
